@@ -24,12 +24,6 @@ This project simulates the spread of an infectious disease using a proximity-bas
 - ✅ Scalable and optimized with spatial hashing
 - ✅ Configurable menu for parameters (planned)
 
-## 🖥️ Screenshot
-
-```
-![Simulation Screenshot](./screenshot.png)
-```
-
 ## ⚙️ Menu Options
 
 A configuration menu allows customization of:
