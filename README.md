@@ -22,7 +22,7 @@ This project simulates the spread of an infectious disease using a proximity-bas
 - ✅ Custom-sized pixel grid (e.g., 200×150) rendered full-screen
 - ✅ Real-time rendering using PyOpenGL + GLFW
 - ✅ Scalable and optimized with spatial hashing
-- ✅ Configurable menu for parameters (planned)
+- ✅ Configurable menu for parameters 
 
 ## ⚙️ Menu Options
 
