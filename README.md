@@ -26,42 +26,22 @@ This project simulates the spread of an infectious disease using a proximity-bas
 
 ## 🖥️ Screenshot
 
-You can include a screenshot like this (place image in the same directory):
-
 ```
 ![Simulation Screenshot](screenshot.png)
 ```
 
-> ⚠️ Make sure the image file (e.g., `screenshot.png`) exists in the same folder as this README.
+## ⚙️ Menu Options
 
-## ⚙️ Planned Menu Options
-
-A configuration menu (or JSON config file) is being planned to allow easy customization of:
-- Screen resolution
-- Heatmap grid resolution
-- Recovery time range
-- Infection radius
-- Reinfection rate
+A configuration menu allows customization of:
 - Number of agents
-
-## 🛠️ Requirements
-
-- Python 3.11 or later
-- [`numpy`](https://pypi.org/project/numpy/)
-- [`PyOpenGL`](https://pypi.org/project/PyOpenGL/)
-- [`PyGLFW`](https://pypi.org/project/glfw/)
-
-Install dependencies:
-
-```bash
-pip install numpy PyOpenGL PyGLFW
-```
+- Initial infected count
+- Infection probability
+- Infection radius
+- Reinfection probability
+- Tick speed (FPS)
+- Pixel size (for rendering)
 
 ## 🚀 Running the Simulation
-
-```bash
-python main_heatmap.py
-```
 
 The window will show a red heatmap, where:
 - Light red = low infection density
@@ -79,11 +59,6 @@ No individual agents are shown — only the infection spread as a visual.
 | Recovery Time          | 400–800 ticks             |
 | Reinfection Modifier   | 0.2 (i.e., 20% chance)    |
 | Agents                 | 500+ (adjustable)         |
-
-## 📚 Report
-
-For full technical details, see the accompanying LaTeX report:
-[`infection_simulation_report.tex`](infection_simulation_report.tex)
 
 ## 📌 License
 
