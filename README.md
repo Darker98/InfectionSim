@@ -35,24 +35,13 @@ A configuration menu allows customization of:
 - Tick speed (FPS)
 - Pixel size (for rendering)
 
-## 🚀 Running the Simulation
+## 🚀 Simulation
 
 The window will show a red heatmap, where:
 - Light red = low infection density
 - Bright red = high infection density
 
 No individual agents are shown — only the infection spread as a visual.
-
-## 🧠 Model Summary
-
-| Parameter              | Value / Range             |
-|------------------------|---------------------------|
-| Infection Radius       | 5 meters                  |
-| Base Infection Prob.   | 0.8                       |
-| Distance Decay         | Exponential ($e^{-kd}$)   |
-| Recovery Time          | 400–800 ticks             |
-| Reinfection Modifier   | 0.2 (i.e., 20% chance)    |
-| Agents                 | 500+ (adjustable)         |
 
 ## 📌 License
 
