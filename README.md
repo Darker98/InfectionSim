@@ -27,7 +27,7 @@ This project simulates the spread of an infectious disease using a proximity-bas
 ## 🖥️ Screenshot
 
 ```
-![Simulation Screenshot](screenshot.png)
+![Simulation Screenshot](./screenshot.png)
 ```
 
 ## ⚙️ Menu Options
